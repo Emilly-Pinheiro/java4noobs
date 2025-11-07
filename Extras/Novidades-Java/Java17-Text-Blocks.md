@@ -4,10 +4,11 @@ Os Text Blocks foram introduzidos no Java 15 após terem a sua preview no Java 1
 
 Para criar um Text Block basta utilizar aspas triplas como no exemplo a seguir:
 
-String textBlock \= “””   
-Isso é um Text Block.  
+```java
+String textBlock = “”Isso é um Text Block.  
 Nele você consegue escrever múltiplas linhas.  
 “””;
+```
 
 O Text Block elimina a necessidade de utilizar caracteres explícitos para a quebra de linha (\\n), ajudando a manter o código mais limpo e fácil de manter.
 
@@ -15,17 +16,21 @@ O Text Block elimina a necessidade de utilizar caracteres explícitos para a que
 
 Usando uma string tradicional
 
-String stringTradicional \= “Isso é uma string tradicional\\n” \+  
-“ela possui múltiplas linhas\\n” \+  
+```java
+String stringTradicional = “Isso é uma string tradicional\\n” +  
+“ela possui múltiplas linhas\\n” +  
 “e precisa de concatenação.”.
+```
 
 Usando Text Block
 
-String textBlock \= “””  
+```java
+String textBlock = “””  
 Isso é um Text Block  
 ele também possui múltiplas linhas,  
 mas não é preciso usar concatenação.  
 “””;
+```
 
 # Conclusão
 
